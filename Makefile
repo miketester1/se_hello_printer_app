@@ -8,3 +8,6 @@ run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
 test:
 	PYTHONPATH=. py.test --verbose -s
+docker_build:
+	docker build -t hello-world-printer .
+	
