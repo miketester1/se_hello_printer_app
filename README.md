@@ -86,3 +86,5 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
   ```
 
 ## projekt ma makefile i mf powinien byc uzywany
+
+#t 22 may
