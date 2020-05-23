@@ -87,4 +87,11 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 ## projekt ma makefile i mf powinien byc uzywany
 
-#t 22 may
+#dodalem monitoring z StatusCake
+
+# badge
+#statuscake
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=gz4BbDw1Qf&Days=1&Design=1" /></a>
+
+#TravisCI
+https://travis-ci.org/miketester1/se_hello_printer_app.svg?branch=master
