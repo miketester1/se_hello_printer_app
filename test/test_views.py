@@ -19,6 +19,5 @@ class FlaskrTestCase(unittest.TestCase):
 
     def test_msg_with_outputxml(self):
         rv = self.app.get('/?output=xml')
-        self.assertEqual(b'<greetings><name>\
-        Michal_M</name><msg>Hello World!</msg></greetings>', rv.data)
+        self.assertEqual(b'<greetings><name>Michal_M</name><msg>Hello World!</msg></greetings>', rv.data)
         # \ to lamanie linii
