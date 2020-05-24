@@ -8,7 +8,7 @@ run:
 	PYTHONPATH=. FLASK_APP=hello_world flask run
 test:
 	PYTHONPATH=. py.test --verbose -s
-
+	
 test_cov:
 	PYTHONPATH=. py.test --verbose -s --cov=. --cov-report xml #albo PYTHONPATH=. py.test --verbose -s --cov=.  tak bylo naajeciach
 test_xunit:
